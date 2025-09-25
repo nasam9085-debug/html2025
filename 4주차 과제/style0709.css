@@ -1,0 +1,47 @@
+#container {
+    width: 650px;
+    margin: 0 auto;
+    border : 1px solid black;
+    padding: 5px;
+    text-align: justify;
+    
+}
+#check {
+
+        width: 640px;
+
+        }   
+
+h1 {
+    color : white;
+    background-color: black;
+    text-align: left;
+    font-size: 1em;
+    margin: 0;
+    padding : 10px;
+    
+}
+
+h2 {
+    color : #f00;
+    font-size: 1.5em;
+    text-align: center;
+
+}
+
+p { 
+    font-size: 1.2em;
+    line-height: 2em;
+    font-weight: bold;
+    text-align:  center;
+
+}
+
+.accent {
+color: blue;
+        }
+.smalltext {
+
+font-size : 0.7em;
+   
+}
