@@ -1,0 +1,20 @@
+body {
+    background-color: rgb(128,128,128);
+}
+.box {
+    width: 300px;
+    height: 200px;
+    border: 2px solid #999;
+    background-color: aqua;
+    margin: 10px;
+    padding: 10px;
+}
+#box1 {
+        background-clip : border-box;
+}
+#box2 {
+    background-color: padding-box;
+}
+#box3 {
+    background-color: content-box;
+}
