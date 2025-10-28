@@ -1,0 +1,29 @@
+.container {
+    width: 100%;
+    border : 1px solid #222;
+    margin-bottom: 30px;
+    display: flex;
+   
+    flex-flow: flex;
+}
+.box {
+    padding : 5px 45px;
+    margin: 5px;
+    width: 80px;
+}
+
+.box:nth-child(odd) {
+    background-color: aqua;
+}
+.box:nth-child(even) {
+    background-color: pink;
+}
+
+#opt1 {
+    justify-content: space-around;
+}
+#box1 {height :50px;
+align-self: flex-start;}
+#box2 {height :150px;
+align-self: flex-end;}
+#box3 {height :200px;}
